@@ -4,12 +4,15 @@ public class Main {
 
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        int input;
+        String input;
 
         System.out.println("Type number: ");
-        input = scanner.nextInt();
+        input = scanner.nextLine();
 
+        //NPN.integerNPN(input);
+        /*
         FizzBuzz.listFizzBuzz(input);
+        */
 
 
     }
